@@ -1,0 +1,24 @@
+body{
+margin:0;
+padding:0;
+background: #68b2b1;
+font-family: Helvetica Neue, Helvetica, Arial;
+color: #ffffff;
+}
+canvas {
+    position: absolute;
+    left: 40px;
+    top: 35px;
+    z-index: -1;
+}
+.breadcrumb{
+	background-color: #68b2b1;
+	font-size: 25px;
+	font-family: "Times New Roman",serif;
+}
+.jumbotron{
+	background: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color:#272822
+}
