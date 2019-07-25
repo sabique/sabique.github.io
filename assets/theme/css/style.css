@@ -424,3 +424,9 @@ nav .mbr-section-btn {
 	top: 0;
 	left: -2400px;
 }
+
+/* Custom CSS*/
+.custom-bg{
+  background: url('../../images/bg.png');
+  background-size: cover;
+}
