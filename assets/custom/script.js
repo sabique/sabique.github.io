@@ -1,14 +1,16 @@
-function calculateExperience(){
-    const date = new Date();
-    const currentYear = date.getFullYear();
-    const currentMonth = date.getMonth();
+function calculateExperience() {
+  const date = new Date();
+  const currentYear = date.getFullYear();
+  const currentMonth = date.getMonth();
 
-    return (currentMonth === 1)? `${currentYear - 2016} years` : `${currentYear - 2016}.${currentMonth - 1} years`;
+  return currentMonth === 1
+    ? `${currentYear - 2016} years`
+    : `${currentYear - 2016}.${currentMonth - 1} years`;
 }
 
-function renderExperience(){
-    const exp = document.querySelector('strong.experience');
-    exp.textContent = calculateExperience();
+function renderExperience() {
+  const exp = document.querySelector("strong.experience");
+  exp.textContent = calculateExperience();
 }
 
 renderExperience();
