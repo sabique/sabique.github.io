@@ -3,7 +3,7 @@ function calculateExperience() {
   const currentYear = date.getFullYear();
   const currentMonth = date.getMonth();
 
-  return currentMonth === 1
+  return currentMonth === 0
     ? `${currentYear - 2016} years`
     : `${currentYear - 2016}.${currentMonth - 1} years`;
 }
